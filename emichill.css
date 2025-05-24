@@ -7,14 +7,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 
 /****ADDONS****/
-/
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
 @import url("https://warrayquipsome.github.io/Chillax/ChillaxTag.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/SettingsModalEdited.css");
 @import url("https://crearts-community.github.io/Friends-Grid/theme.css");
 @import url("https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css");
 
 /****CHILLAX COMPONENTS****/
-@import url('https://warrayquipsome.github.io/Chillax/Components/WindowsButtons.css');
 @import url('https://warrayquipsome.github.io/Chillax/Components/UserArea.css');
 @import url('https://warrayquipsome.github.io/Chillax/Components/Embeds.css');
 @import url('https://warrayquipsome.github.io/Chillax/Components/ChatArea.css');
@@ -188,6 +187,19 @@ html.theme-light .footer-3naVBw {
 
 .avatarHintInner_f89da9 {
     border-radius: 50px;
+}
+
+/*bd editor titlebar*/
+.floating-window-titlebar {
+    backdrop-filter: blur(2px);
+}
+
+html.theme-dark .floating-window-titlebar {
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+html.theme-light .floating-window-titlebar {
+    background-color: rgba(255, 255, 255, 0.575);
 }
 
 /*code block*/
@@ -936,6 +948,22 @@ html.theme-light {
 /*custom bd window edit*/
 .floating-window {
     border-radius: 5px !important;
+}
+
+.title {
+    text-align: center;
+    padding-left: 60px !important;
+}
+
+/*custom popout window*/
+.content_c48ade {
+    margin: var(--window-margin);
+    /* Leave space for title bar's padding */
+    margin-top: 4px;
+    overflow: hidden;
+    border-radius: var(--window-border-radius);
+    background: var(--window-colour);
+    backdrop-filter: blur(var(--window-blur)) !important;
 }
 
 /*custom public servers and create server buttons*/
