@@ -1511,16 +1511,6 @@ html.theme-light .children__7bffb .colorRed__201d5:hover {
     font-size: 11px !important;
 }
 
-/*flickering user setting icons*/
-.sidebar__23e6b .item_b3f026:hover:before {
-    transition: all 0.2s;
-    transform: rotateY(180deg);
-}
-
-.sidebar__23e6b .item_b3f026:before {
-    transition: all 0.2s;
-}
-
 /*settings user profile recolour*/
 html.theme-dark .accountProfileCard__1fed1 {
     background: rgb(26, 26, 26);
@@ -2712,10 +2702,6 @@ div.mainCard_f369db div.channelTextAreaInner_d9be46.scrollableContainer__74017.t
 
 /* End to time stamp */
 
-/*sidebar server name border radius fix*/
-.sidebar_c48ade {
-    border-radius: 0px !important;
-}
 
 html.theme-light .fieldSpacerBottom__1fed1 {
     margin-bottom: 0;
