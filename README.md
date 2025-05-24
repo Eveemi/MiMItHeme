@@ -1,0 +1,2 @@
+# MiMItHeme
+MiMI Discord Theme
